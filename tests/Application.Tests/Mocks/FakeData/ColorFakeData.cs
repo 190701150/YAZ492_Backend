@@ -10,8 +10,8 @@ public class ColorFakeData : BaseFakeData<Color>
     {
         var data = new List<Color>
         {
-            new() { Id = 1, Name = "Red" },
-            new() { Id = 2, Name = "Blue" }
+            new() { Id = 1, Name = "Blue" },
+            new() { Id = 2, Name = "Red" }
         };
         return data;
     }
